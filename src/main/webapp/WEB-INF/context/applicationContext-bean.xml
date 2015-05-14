@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+	   http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+	<bean id="usuario" class="gob.osinergmin.common.domain.Usuario" />
+
+	<bean id="producto" class="gob.osinergmin.common.domain.Producto" />
+
+	<bean id="unidadOperativa" class="gob.osinergmin.common.domain.UnidadOperativa" />
+
+	<bean id="detalleGuiaFiscalizacion" class="gob.osinergmin.common.domain.DetalleGuiaFiscalizacion" />
+
+</beans>
